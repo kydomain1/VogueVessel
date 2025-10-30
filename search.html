@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search VogueVessel for lifestyle articles on fashion, beauty, home decor, travel, finance, and food. Find the perfect article for you.">
+    <meta name="keywords" content="search lifestyle articles, find blog posts, VogueVessel search">
+    <meta name="author" content="VogueVessel">
+    <meta name="robots" content="noindex, follow">
+    <title>Search Results - VogueVessel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1><a href="index.html" style="color: white; text-decoration: none;">VogueVessel</a></h1>
+                    <p class="tagline">Navigate Your Lifestyle</p>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Search Results</h1>
+            <p id="searchQuery"></p>
+        </div>
+    </div>
+
+    <!-- Search Bar -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search articles...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Results -->
+    <section class="blog-section">
+        <div class="container">
+            <div id="resultsCount" style="text-align: center; margin-bottom: 2rem; font-size: 1.2rem; color: #5D6D7E;"></div>
+            
+            <div class="blog-grid" id="searchResults">
+                <!-- Search results will be inserted here by JavaScript -->
+            </div>
+
+            <div id="noResults" style="display: none; text-align: center; padding: 4rem 0;">
+                <i class="fas fa-search" style="font-size: 5rem; color: #A8D8EA; margin-bottom: 1rem;"></i>
+                <h2 style="color: #5D6D7E; margin-bottom: 1rem;">No Results Found</h2>
+                <p style="color: #95A5A6; font-size: 1.1rem; margin-bottom: 2rem;">Try searching with different keywords or browse our categories</p>
+                <a href="index.html" class="btn-primary">Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Widget -->
+    <aside class="social-widget">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+            <a href="https://www.facebook.com/voguevessel" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/voguevessel" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/voguevessel" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.pinterest.com/voguevessel" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+            <a href="https://www.youtube.com/@voguevessel" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>VogueVessel</h3>
+                    <p>Your ultimate destination for lifestyle inspiration across fashion, beauty, home, travel, finance, and food.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="index.html">Fashion & Accessories</a></li>
+                        <li><a href="index.html">Health & Beauty</a></li>
+                        <li><a href="index.html">Home & Garden</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/voguevessel" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/voguevessel" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/voguevessel" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.pinterest.com/voguevessel" target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VogueVessel. All rights reserved. | <a href="privacy-policy.html" style="color: #BDC3C7;">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/search.js"></script>
+</body>
+</html>
+

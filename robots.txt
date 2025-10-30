@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://voguevessel.com/sitemap.xml
+
+# Disallow search results
+Disallow: /search.html?q=*
+
+# Allow all CSS and JS
+Allow: /css/
+Allow: /js/
+
+# Crawl-delay
+Crawl-delay: 1
+
