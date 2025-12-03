@@ -1,0 +1,14 @@
+{
+  // Name of your Cloudflare Worker / project
+  "name": "voguevessel",
+
+  // Use a recent date; you can update this if Cloudflare suggests a newer one
+  "compatibility_date": "2025-12-03",
+
+  // Serve static assets from the project root (where index.html lives)
+  "assets": {
+    "directory": "."
+  }
+}
+
+
